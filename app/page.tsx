@@ -1,11 +1,19 @@
+import Layout from "../components/Layout";
+
 export default function Home() {
   return (
-    <div className="d-flex flex-col min-h-screen">
-      <nav className="grow-0 bg-green-200 min-h-[10vh]"></nav>
-
-      <main className="flex-1 bg-blue-200 min-h-screen"></main>
-
-      <footer className="grow-0 bg-orange-200 min-h-[10vh]"></footer>
-    </div>
+    <>
+      <Layout>
+        <div className="p-4">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+            nihil laudantium pariatur earum iusto quo! Necessitatibus, labore
+            ipsam. Accusantium, nam! Corrupti iste quisquam, voluptatibus
+            laboriosam dolor nobis cum odit asperiores!
+          </p>
+          <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        </div>
+      </Layout>
+    </>
   );
 }
