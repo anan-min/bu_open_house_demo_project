@@ -2,7 +2,7 @@ const Navigation = () => {
   return (
     <>
       <nav className="bg-black fixed w-full z-20 top-0 start-0 border-b border-gray-800">
-        <div className="max-w-screen flex items-center justify-between mx-auto p-4">
+        <div className="max-w-screen flex items-center justify-between mx-auto p-6">
           <a
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"

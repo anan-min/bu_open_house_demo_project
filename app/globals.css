@@ -20,6 +20,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* styles/globals.css or styles/HeroBanner.module.css */
+
+.custom-star1 {
+  right: 2%; /* Move closer to the right border */
+  top: 5%; /* Adjust top positioning if needed */
+}
+
+.custom-star2 {
+  left: 1%; /* Move closer to the left border */
+  top: 15%; /* Adjust top positioning if needed */
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
