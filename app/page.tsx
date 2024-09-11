@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Layout from "../components/Layout";
 import Gallery from "../components/home/Gallery";
 import HeroBanner from "../components/home/HeroBanner";

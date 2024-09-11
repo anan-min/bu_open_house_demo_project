@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import animationDelay from "./tailwind/config/animationDelay";
 
 const config: Config = {
   content: [
@@ -8,12 +9,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Bebas Neue", "Inter", "sans-serif"], // Default font for the project
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#ffffff", // Default font color (white)
+        background: "#000000", // Default background color (black)
+        secondary: "#1f2937", // Secondary font color (gray-900)
+        highlight: "#64748b", // Highlight color (gray-500)
       },
     },
   },
-  plugins: [],
+  plugins: [animationDelay],
 };
 export default config;
