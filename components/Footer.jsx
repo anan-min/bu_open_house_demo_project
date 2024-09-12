@@ -3,10 +3,9 @@ import React from "react";
 export const Footer = () => {
   return (
     <>
+      <hr className=" dark:border-gray-100" />
       <footer className="bg-black text-white">
-        <hr className="my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
-
-        <div className="mx-auto w-full max-w-screen p-4 py-6 lg:py-8">
+        <div className="m-auto w-full max-w-screen p-4 py-6 lg:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-gray-400 sm:text-center">
               © 2024{" "}

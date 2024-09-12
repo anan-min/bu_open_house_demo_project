@@ -3,7 +3,7 @@ import Link from "next/link";
 const Navigation = () => {
   return (
     <>
-      <nav className="bg-black fixed w-full z-20 top-0 start-0 border-b border-gray-800">
+      <nav className="bg-black fixed w-full z-20 top-0 start-0 border-b">
         <div className="max-w-screen flex items-center justify-between mx-auto p-6">
           <Link
             href={"/"}
@@ -52,6 +52,7 @@ const Navigation = () => {
             </ul>
           </div>
         </div>
+        <hr className=" dark:border-gray-300" />
       </nav>
     </>
   );
