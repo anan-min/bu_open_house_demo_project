@@ -1,13 +1,18 @@
+"use client";
 import React from "react";
 import "../styles/flipCard.css";
 
-const FlipCard = () => {
+const FlipCard = ({
+  front = "front",
+  back = "back",
+  front_style = "bg-white text-slate-600",
+  back_style = "bg-white text-slate-600",
+  card_style = "w-[500px] h-[280px]",
+}) => {
   return (
-    <div className="flex flex-col items-center justify-center h-full pt-20">
-      <div className="flip-card">
-        <div className="flip-card__front-side">Front</div>
-        <div className="flip-card__back-side">Back</div>
-      </div>
+    <div className={`flip-card ${card_style}`}>
+      <div className={`flip-card__front-side ${front_style}`}>{front}</div>
+      <div className={`flip-card__back-side ${back_style}`}>{back}</div>
     </div>
   );
 };
