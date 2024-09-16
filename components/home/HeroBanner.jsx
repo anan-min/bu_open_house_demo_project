@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import mascot_camera from "@/public/mascot_camera.svg";
-import AnimatedText from "@/components/AnimatedText";
+import AnimatedText from "@/components/animations/AnimatedText";
 import Decorations from "@/components/home/Decorations";
 
 const HeroBanner = () => {

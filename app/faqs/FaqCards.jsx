@@ -1,5 +1,5 @@
 import React from "react";
-import FlipCard from "@/components/FlipCard";
+import FlipCard from "@/components/animations/FlipCard";
 
 const FaqCards = () => {
   const cardSize = "w-[420px] h-[100px]";
