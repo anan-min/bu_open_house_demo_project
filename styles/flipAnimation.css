@@ -12,4 +12,5 @@
 
 .animate-flip {
   animation: flip 3s infinite;
+  transform-origin: center;
 }

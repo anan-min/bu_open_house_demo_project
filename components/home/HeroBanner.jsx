@@ -1,27 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import star from "@/public/star.svg";
 import mascot_camera from "@/public/mascot_camera.svg";
 import AnimatedText from "@/components/AnimatedText";
+import Decorations from "@/components/home/Decorations";
 
 const HeroBanner = () => {
   return (
     <div className="relative min-h-[50vh] md:min-h-[100vh] bg-black flex items-center justify-center overflow-hidden">
       {/* Decorative Stars */}
-      <div className="absolute inset-0 pointer-events-none">
-        <Image
-          className="absolute w-25 h-25 animate-spin"
-          src={star}
-          alt="Star"
-          style={{ top: "5%", left: "3%" }} // Adjust positioning as needed
-        />
-        <Image
-          className="absolute w-30 h-30 animate-spin"
-          src={star}
-          alt="Star"
-          style={{ bottom: "5%", right: "5%" }} // Adjust positioning as needed
-        />
-      </div>
+      <Decorations />
+
+      <div className="absolute  bg-red-400 animate-flip bottom-12 left-8 w-12 h-12 z-50 rotate-6 xl:w-24 xl:h-24 xl:left-36"></div>
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-7xl pl-10 pr-16">

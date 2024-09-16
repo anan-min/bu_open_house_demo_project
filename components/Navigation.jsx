@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useState } from "react";
 
 const Navigation = () => {
   return (
@@ -18,7 +19,7 @@ const Navigation = () => {
             <ul className="flex space-x-8 p-4 font-medium border border-gray-800 rounded-lg bg-black md:space-x-8 md:mt-0 md:border-0 md:bg-black">
               <li>
                 <a
-                  href="#"
+                  href="/register"
                   className="block py-2 px-3 text-white bg-gray-800 rounded md:bg-transparent md:text-white md:p-0"
                   aria-current="page"
                 >
@@ -27,7 +28,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/schedule"
                   className="block py-2 px-3 text-white rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:hover:bg-gray-800 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Schedule
@@ -43,7 +44,7 @@ const Navigation = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/contact"
                   className="block py-2 px-3 text-white rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:hover:bg-gray-800 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contact
@@ -52,7 +53,6 @@ const Navigation = () => {
             </ul>
           </div>
         </div>
-        <hr className=" dark:border-gray-300" />
       </nav>
     </>
   );
