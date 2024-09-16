@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "../styles/flipCard.css";
+import "@/styles/flipcard.css";
 
 const FlipCard = ({
   front = "front",
