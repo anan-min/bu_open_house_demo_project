@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation />
-      <main className="pt-20 min-h-screen flex-grow">{children}</main>
+      <main className="mt-2 pt-20 min-h-screen flex-grow">{children}</main>
       <Footer />
     </div>
   );
