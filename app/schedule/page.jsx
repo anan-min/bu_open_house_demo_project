@@ -1,11 +1,15 @@
 import React from "react";
 import Layout from "@/components/Layout";
 import Timeline from "@/app/schedule/timeline/Timeline";
+import Decorations from "./Decorations";
 
 const page = () => {
   return (
     <Layout>
-      <Timeline />
+      <div className="relative">
+        <Timeline />
+        <Decorations />
+      </div>
     </Layout>
   );
 };

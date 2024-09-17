@@ -15,7 +15,7 @@ const FlipCard = ({
         <div className="text-base text-center font-bold p-2">{front}</div>
       </div>
       <div className={`flip-card__back-side ${back_style}`}>
-        <div className="text-base text-center font-bold p-2">{back}</div>
+        <div className="text-base text-center p-2">{back}</div>
       </div>
     </div>
   );
