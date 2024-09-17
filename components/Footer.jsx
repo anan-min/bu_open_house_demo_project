@@ -3,8 +3,8 @@ import React from "react";
 export const Footer = () => {
   return (
     <>
-      <hr className=" dark:border-gray-100" />
-      <footer className="bg-black text-white">
+      <hr className=" dark:border-gray-100 z-50" />
+      <footer className="bg-black text-white z-50">
         <div className="m-auto w-full max-w-screen p-4 py-6 lg:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-gray-400 sm:text-center">

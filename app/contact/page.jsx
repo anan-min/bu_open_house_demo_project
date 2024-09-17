@@ -8,7 +8,7 @@ const Page = () => {
   return (
     <Layout>
       <div className="relative">
-        <div className="p-6 md:grid md:grid-cols-2 bg-slate-900">
+        <div className="p-6 md:grid lg:grid-cols-2 bg-slate-900">
           <section>
             <LocationInfo />
           </section>
