@@ -1,0 +1,7 @@
+/* styles/globals.css */
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap");
+
+/* Create a class to apply the Sarabun font */
+.sarabun-font {
+  font-family: "Sarabun", sans-serif;
+}
