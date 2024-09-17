@@ -27,7 +27,7 @@ const HeroBanner = () => {
             <Image
               src={mascot_camera}
               alt="Mascot Camera"
-              className="w-40 h-auto"
+              className="w-40 h-auto animate-shake"
             />
           </div>
           <div className="col-span-4 flex items-center justify-center pl-22">
