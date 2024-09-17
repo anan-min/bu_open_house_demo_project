@@ -8,8 +8,7 @@ const Decorations = () => {
       <Image
         src={mascot_3}
         alt="mascot 3 image"
-        style={{ transform: "rotate(20deg)" }}
-        className="absolute  animate-bounce rotate-12 z-10  w-14 top-8 left-1 md:w-48 md:top-24 md:left-10 xl:w-64  xl:top-44 xl:left-60"
+        className="absolute animate-shake rotate-12 z-10  w-20 top-8 left-1 md:w-48 md:top-24 md:left-10 xl:w-72  xl:top-44 xl:left-60"
       />
       {/* Circle */}
       <div className="absolute top-36 right-36 bg-orange-400 rounded-full w-32 h-32 z-10 animate-flip"></div>
