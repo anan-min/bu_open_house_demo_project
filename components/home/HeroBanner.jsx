@@ -42,12 +42,15 @@ const HeroBanner = () => {
 
           <div className="col-span-1"></div>
           <div className="col-span-6 flex items-center justify-center ">
-            <AnimatedText
+            {/* <AnimatedText
               style="bounce"
               direction="backward"
               text="มาลองจนกว่าจะใช่"
               className="text-3xl md:text-7xl xl:text-8xl text-white  tracking-wide"
-            />
+            /> */}
+            <h3 className="text-3xl md:text-7xl xl:text-8xl text-white  tracking-wide animate-shake">
+              มาลองจนกว่าจะใช่
+            </h3>
           </div>
         </div>
       </div>
